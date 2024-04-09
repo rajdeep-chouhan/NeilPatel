@@ -1,0 +1,187 @@
+@media(max-width:768px){
+    nav{
+        padding: 30px;
+    }
+    .page1{
+        flex-direction: column;
+        height: 160vh;
+    }
+    .text-section{
+        width: 100%;
+        padding: 0px;
+    }
+    .img-section{
+        width: 100%;
+    }
+    .text-section h1{
+        font-size: 38px;
+        font-weight: 600;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .card{
+        width: 70%;
+        height: 300px;
+        margin-left: 100px;
+    }
+    .sp2{
+        flex-direction: column;
+        width: 100%;
+    }
+    #input{
+        width: 100%;
+    }
+    #cbtn{
+        width: 100%;
+        border-radius: 0px;
+        right: 0;
+    }
+
+    .img-section{
+        height: 150vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-section p{
+        top: -5px;
+        font-size: 14px;
+    }
+    #imgC{
+        /* margin-top: 90px; */
+        height: 250px;
+        padding: 0px;
+        position: relative;
+        top: 40px;
+    }
+    #connector{
+        right: 230px;
+        top: 10px;
+        height: 100px;
+    }
+
+
+    .page2{
+        width: 100%;
+        height: 110vh;
+    }
+    .page2 img{
+        width: 90%;
+    }
+    .page2 h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .page2 a{
+        font-size: 24px;
+    }
+    .page2 h3{
+        font-size: 17px;
+        text-align: center;
+    }
+    .page2 p{
+        font-size: 16px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .page2 input{
+        width: 80%;
+    }
+    .page2 button{
+        width: 80%;
+    }
+
+    .page3{
+        height: 80vh;
+    }
+
+    .image{
+        display: none;
+    }
+
+    .page4{
+        height: 170vh;
+    }
+    .title h1{
+        font-size: 24px;
+        top: 120px;
+    }
+    .box{
+        padding-top: 0px;
+        height: 100vh;
+    }
+    .card1{
+        height: 30vh;
+        width: 90%;
+        padding: 20px 0;
+    }
+    .card1 p{
+        padding: 0;
+    }
+
+    #card1p3{
+        display: block;
+    }
+    #card1p4{
+        display: block;
+    }
+    #card1p31{
+        display: none;
+    }
+    #card1p41{
+        display: none;
+    }
+    #c2{
+        border-bottom: 1px solid rgba(181, 178, 178, 0.75);
+    }
+    .fright{
+        display: none;
+    }
+    
+    .fleft{
+        height:30vh;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        padding-block: 30px;
+    }
+    .fleft ul{
+        width: 100%;
+    }
+    #sec{
+        display: flex;
+        align-items:start;
+        justify-content: center;
+        /* flex-direction: column; */
+    }
+    .fleft span{
+        display: flex;
+        align-items:first-baseline;
+        justify-content: space-between;  
+        width: 120%;
+        
+    }
+    
+    .logos2{
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 14rem;
+        text-align: center;
+    }
+    .logos2 img{
+        height: 22px;
+    }
+
+    #menu{
+        display: block;
+        color: white;
+        font-size: 23px;
+    }
+}
